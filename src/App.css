@@ -31,3 +31,50 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  background: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+  transition: .6s;
+}
+
+.links:hover {
+  color: rgb(124, 121, 121);
+}
+
+.fa-apple {
+  color: white;
+  transform: scale(1.4)
+}
+
+.mac-bar {
+  background: #2D2D2D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 60px;
+  align-items: baseline;
+  height: 90px;
+}
+
+.mac-item h5 {
+  margin-top: -6px;
+  font-size: 11px;
+}
+
+.mac-item img {
+  filter: brightness(0) invert(1);
+}
+
+.mac-item h6 {
+  margin-top: -20px;
+  color: orange;
+}
