@@ -74,6 +74,11 @@
   filter: brightness(0) invert(1);
 }
 
+.mac-item:hover {
+  color: rgb(111, 157, 243);
+  transition: .5s;
+}
+
 .mac-item h6 {
   margin-top: -20px;
   color: orange;
